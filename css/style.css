@@ -1,1 +1,42 @@
-
+body {
+font-family: 'Noto Sans JP', sans-serif;
+}
+/* Nav Header */
+.header_top {
+  line-height: 70px;
+  vertical-align: middle;
+}
+.nav_header {
+  margin-left: 100px;
+}
+.nav_header li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.logo_header {
+  width: 80px;
+}
+.nav_header a {
+  color: black;
+}
+.nav_header a:hover {
+  text-decoration: none;
+}
+.btn_lang {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0;
+  margin-left: 30px;
+}
+.btn_login {
+  background-color: black;
+  color: #fff;
+  border-radius: 0;
+}
+/* /Nav Header */
