@@ -1,6 +1,11 @@
 body {
 font-family: 'Noto Sans JP', sans-serif;
 }
+/* Typo */
+h1 {
+  font-size: 100px;
+}
+/* /Typo */
 /* Nav Header */
 .header_top {
   line-height: 70px;
@@ -40,3 +45,21 @@ font-family: 'Noto Sans JP', sans-serif;
   border-radius: 0;
 }
 /* /Nav Header */
+/* Hero */
+.hero {
+  padding: 50px 100px;
+  min-height: 100vh;
+}
+.img_hero {
+  width: 100%;
+}
+.btn_mobile {
+  background-color: transparent;
+}
+/* /Hero */
+/* Responsive */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+}
