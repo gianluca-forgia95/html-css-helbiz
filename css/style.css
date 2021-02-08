@@ -52,7 +52,7 @@ h1 {
 /* /Nav Header */
 /* Hero */
 .hero {
-  padding: 50px 100px;
+
   min-height: 100vh;
 }
 .img_hero {
@@ -67,8 +67,9 @@ h1 {
   padding: 80px 10px;
   font-size: 17px;
 }
+
 .product {
-  padding: 80px 20px 30px 20px;
+
 }
 .logo_title {
   width: 200px;
@@ -85,12 +86,51 @@ h1 {
 }
 .img_transport {
   width: auto;
-  max-height: 300px;
+  max-height: 280px;
 }
 /* /Transport */
+/* Info */
+#info {
+  background-image: url('../img/banner.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container_small {
+  width: 500px;
+  margin: auto;
+}
+.box {
+  display: inline-block;
+  margin-top: 250px;
+  width: 30%;
+  vertical-align: bottom;
+
+}
+.box_1 h2 {
+  font-weight: 800;
+
+}
+.box_2 {
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.box > img {
+  width: auto;
+  height: 300px;
+}
+/* /Info */
 /* Responsive */
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 80px;
   }
+  .product > img , p , a {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
 }
